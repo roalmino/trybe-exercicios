@@ -30,7 +30,7 @@
   } */ 
 
   /* Exercício de Fixação: Posicionamento de elementos */
-  .super-mario {
+  /* .super-mario {
     width: 200px;
     display: block;
     position: absolute;
@@ -61,4 +61,20 @@
     position: absolute;
     left: 340px;
     top: 520px;
+  } */
+
+  /* Exercício de Fixação: Agrupando seletores */
+
+  h1,p {
+    text-align: center;
+  }
+
+  li:hover {
+    background-color: black;
+    color:red
+  }
+
+  li:active {
+    color:antiquewhite;
+    font-weight: bold;
   }
