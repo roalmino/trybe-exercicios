@@ -41,7 +41,9 @@ h1 {
 
   /* ----------------------------------- // ------------------------------ */
 
-
+  header {
+    background-color: #3AB795;
+  }
 
   header .title {
     font-weight: bold;
