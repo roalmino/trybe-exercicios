@@ -42,15 +42,34 @@ h1 {
   /* ----------------------------------- // ------------------------------ */
 
 
-  .image {
-    position: absolute;
-    top: 0;
-    z-index: -1;
-    width: 600px;
-  }
 
-  .title {
-    color: blue;
+  header .title {
     font-weight: bold;
     margin-left: 15px;
+    text-align: center;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding-left: 1rem;
+    text-indent: -0.7rem;
+  }
+
+  li::before {
+    content: "🐚 ";
+  }
+
+  .links{
+    display:flex;
+    justify-content: space-around;
+  }
+
+  .image {
+    width: 600px;
+    opacity: 0.5;
   }
