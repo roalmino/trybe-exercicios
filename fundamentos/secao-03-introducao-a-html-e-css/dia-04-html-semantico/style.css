@@ -41,6 +41,9 @@ h1 {
 
   /* ----------------------------------- // ------------------------------ */
 
+  body {
+    background-color: #4F7CAC;
+  }
   header {
     background-color: #3AB795;
   }
