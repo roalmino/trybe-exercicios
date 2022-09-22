@@ -37,50 +37,77 @@
 // }
 
 // --------------------------- exercícios -------------------------
-let numbers = [5, 9, 3, 19, 70, 8, 101, 2, 35, 27];
-let soma = 0;
-let media = 0;
-let maior = 0;
-let impares = [];
-let menor = numbers[0];
+// let numbers = [5, 9, 3, 19, 70, 8, 101, 2, 35, 27];
+// let soma = 0;
+// let media = 0;
+// let maior = 0;
+// let impares = [];
+// let menor = numbers[0];
 
-for (i = 0; i < numbers.length; i++) {
-  soma = soma + numbers[i];
-  media = soma / numbers.length;
-}
+// for (i = 0; i < numbers.length; i++) {
+//   soma = soma + numbers[i];
+//   media = soma / numbers.length;
+// }
 
-console.log("A soma total é: " + soma);
-console.log("A média aritmética é: " + media);
+// console.log("A soma total é: " + soma);
+// console.log("A média aritmética é: " + media);
 
-if (media > 20) {
-  console.log("A média é maior que 20");
-} else {
-  console.log("A média é menor que 20");
-}
+// if (media > 20) {
+//   console.log("A média é maior que 20");
+// } else {
+//   console.log("A média é menor que 20");
+// }
 
-for (index = 0; index < numbers.length; index++) {
-  if (numbers[index] > maior) {
-    maior = numbers[index];
-  }
-}
-console.log("O maior valor é: " + maior);
+// for (index = 0; index < numbers.length; index++) {
+//   if (numbers[index] > maior) {
+//     maior = numbers[index];
+//   }
+// }
+// console.log("O maior valor é: " + maior);
 
-for (index = 0; index < numbers.length; index++) {
-  if (numbers[index] % 2 > 0) {
-    impares.push(numbers[index]);
-  }
-}
-console.log("Os números impares são: " + impares);
+// for (index = 0; index < numbers.length; index++) {
+//   if (numbers[index] % 2 > 0) {
+//     impares.push(numbers[index]);
+//   }
+// }
+// console.log("Os números impares são: " + impares);
 
+// for (index = 0; index < numbers.length; index += 1) {
+//   if (numbers[index] < menor) {
+//     menor = numbers[index];
+//   }
+// }
+// console.log("O menor número é: " + menor);
+
+// let lista = [];
+// for (index = 1; index <= 25; index += 1) {
+//   lista[index] = `${index} dividido por 2 é ${index / 2}`;
+//   console.log(lista[index]);
+// }
+
+// --------------------------- exercícios bonus-------------------------
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// for (index = 0; index < numbers.length; index += 1) {
+//   for (indexSecond = 0; indexSecond < index; indexSecond += 1) {
+//     if (numbers[index] > numbers[indexSecond]) {
+//       let provisorio = 0;
+//       provisorio = numbers[index];
+//       numbers[index] = numbers[indexSecond];
+//       numbers[indexSecond] = provisorio;
+//     }
+//   }
+// }
+// console.log(numbers);
+
+let mult = [];
 for (index = 0; index < numbers.length; index += 1) {
-  if (numbers[index] < menor) {
-    menor = numbers[index];
+  if (index + 1 == numbers.length) {
+    mult.push(numbers[index] * 2);
+  } else {
+    mult.push(numbers[index] * numbers[index + 1]);
   }
-}
-console.log("O menor número é: " + menor);
 
-let lista = [];
-for (index = 1; index <= 25; index += 1) {
-  lista[index] = `${index} dividido por 2 é ${index / 2}`;
-  console.log(lista[index]);
+  console.log(mult[index]);
 }
