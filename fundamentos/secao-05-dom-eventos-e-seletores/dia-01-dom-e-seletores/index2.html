@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício</title>
+
+    <style>
+      main,
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin: 0 auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Exercício - JavaEscripito</h1>
+    </header>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Texto padrão do nosso site</p>
+        <p>-----</p>
+        <p>Trybe</p>
+      </section>
+    </main>
+    <script>
+      const paragrafos = document.querySelectorAll(".center-content p");
+      paragrafos[1].innerText =
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, cumque, debitis rerum tempora possimus corrupti maxime ipsam numquam consequuntur dignissimos quam quae nihil ad est alias animi nesciunt ut voluptatem?";
+      paragrafos[0].innerText = paragrafos[0].innerText.toUpperCase();
+
+      for (let index in paragrafos) {
+        console.log(paragrafos[index].textContent);
+      }
+
+      const mainContent = document.querySelector(".main-content");
+      mainContent.style.backgroundColor = "rgb(76,164,109)";
+
+      const centerContent = document.querySelector(".center-content");
+      centerContent.style.backgroundColor = "white";
+
+      const title = document.querySelector(".title");
+      title.innerText = "Exercício - JavaScript";
+    </script>
+  </body>
+</html>
