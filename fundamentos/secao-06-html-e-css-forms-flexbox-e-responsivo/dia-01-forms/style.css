@@ -1,0 +1,28 @@
+body {
+  background-color: #ffc2e2;
+}
+
+.main-container {
+  border-radius: 2px;
+  width: 700px;
+  background-color: #dd0426;
+  color: #eff6ee;
+  padding: 20px;
+}
+
+.container {
+  margin: 10px 15px;
+}
+
+.button {
+  border-style: none;
+  background-color: #dd0426;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-right: 10px;
+  color: #eff6ee;
+}
+
+.button:hover {
+  background-color: #c7a59e;
+}
