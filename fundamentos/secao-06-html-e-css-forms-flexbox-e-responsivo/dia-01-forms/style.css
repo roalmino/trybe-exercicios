@@ -1,28 +1,28 @@
 body {
-  background-color: #ffc2e2;
+  background-color: #a7a5e1;
+}
+
+.title {
+  margin: 15px 80px;
 }
 
 .main-container {
   border-radius: 2px;
-  width: 700px;
-  background-color: #dd0426;
-  color: #eff6ee;
+  width: 800px;
+  background-color: white;
   padding: 20px;
+  margin: 0 auto;
 }
 
 .container {
   margin: 10px 15px;
 }
 
-.button {
-  border-style: none;
-  background-color: #dd0426;
-  padding: 10px 20px;
-  border-radius: 8px;
-  margin-right: 10px;
-  color: #eff6ee;
+.btn {
+  margin-left: 30px;
 }
 
-.button:hover {
-  background-color: #c7a59e;
+.btn-container {
+  width: 400px;
+  margin: 15px auto;
 }
