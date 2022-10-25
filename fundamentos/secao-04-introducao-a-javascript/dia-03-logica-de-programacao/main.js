@@ -47,3 +47,50 @@
 // }
 
 // console.log(primo);
+
+// ----------------- exercicio bonus 1
+// let n = 6;
+// let c = "*";
+// let resultado = [];
+
+// for (let index = 0; index < n; index += 1) {
+//   for (let indexB = 0; indexB < n; indexB += 1) {
+//     resultado += c;
+//   }
+//   resultado += "\n";
+// }
+// console.log(resultado);
+
+// ----------------- exercicio bonus 2
+// let n = 6;
+// let c = "*";
+// let resultado = [];
+
+// for (let index = 0; index < n; index += 1) {
+//   for (let indexB = 0; indexB < index; indexB += 1) {
+//     resultado += c;
+//   }
+//   resultado += "\n";
+// }
+// console.log(resultado);
+
+
+// ----------------- exercicio bonus 3
+// let n = 6;
+// let c = "*";
+// let resultado = [];
+// let indexB = 0;
+
+// for (let index = 0; index < n; index += 1) {
+//   for (let indexC = n; indexC > indexB; indexC -= 1) {
+//     resultado += " ";
+//   }
+//   for (indexB = 0; indexB < index; indexB += 1) {
+//     resultado += c;
+//   }
+//   resultado += "\n";
+// }
+// console.log(resultado);
+
+
+// ----------------- exercicio bonus 4
