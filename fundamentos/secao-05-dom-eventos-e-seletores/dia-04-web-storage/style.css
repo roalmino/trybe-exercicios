@@ -1,0 +1,58 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+.header {
+  background-color: #fd6500;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.subtitle {
+  color: #fd6500;
+}
+
+main {
+  margin: 20px 40px;
+}
+
+.container {
+  margin: 20px;
+}
+.main-image {
+  width: 500px;
+}
+
+.forms {
+  display: flex;
+  margin: 10px;
+}
+
+.forms input {
+  margin-left: 10px;
+  width: 30px;
+}
+
+button {
+  margin: 0 100px;
+  padding: 10px;
+  background-color: #fd6500;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #ff7e29;
+}

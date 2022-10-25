@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Receitinhas</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="main-title">Receitinhas Rápidas</h1>
+    </header>
+
+    <div class="main-container">
+      <main>
+        <h2 class="subtitle">Bolo de laranja</h2>
+        <img
+          class="main-image"
+          src="https://img.itdg.com.br/images/recipes/000/013/953/323851/323851_original.jpg"
+          alt="bolo de laranja"
+        />
+        <section class="container">
+          <h3 class="subtitle">Ingredientes</h3>
+          <ul class="text">
+            <li>4 ovos</li>
+            <li>2 xícaras (chá) de açúcar</li>
+            <li>1 xícara (chá) de óleo</li>
+            <li>suco de 2 laranjas</li>
+            <li>casca de 1 laranja</li>
+            <li>2 xícaras (chá) de farinha de trigo</li>
+            <li>1 colher (sopa) de fermento</li>
+          </ul>
+        </section>
+
+        <section class="container">
+          <h3 class="subtitle">Modo de preparo</h3>
+          <ul class="text">
+            <li>
+              Bata no liquidificador os ovos, o açúcar, o óleo, o suco e a casca
+              da laranja.
+            </li>
+            <li>
+              Passe para uma tigela e acrescente a farinha de trigo e o
+              fermento.
+            </li>
+            <li>
+              Leve para assar em uma forma com furo central, untada e
+              enfarinhada, por mais ou menos 30 minutos.
+            </li>
+            <li>Desenforme o bolo e molhe com suco de laranja.</li>
+          </ul>
+        </section>
+      </main>
+      <aside>
+        <section class="container">
+          <h2 class="subtitle">Preferências</h2>
+          <div class="forms">
+            <p>Mude a cor de fundo:</p>
+            <input type="color" name="" id="input-background" value="#FFFFFF" />
+          </div>
+          <div class="forms">
+            <p>Mude a cor do texto:</p>
+            <input type="color" name="" id="input-text-color" />
+          </div>
+          <div class="forms">
+            <p>Mude o tamanho da fonte:</p>
+            <input type="number" id="input-font-size" />
+          </div>
+          <div class="forms">
+            <p>Mude o espaçamento entre as linhas do texto:</p>
+            <input type="number" id="input-line-height" />
+          </div>
+          <button class="main-button">Alterar</button>
+        </section>
+      </aside>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
