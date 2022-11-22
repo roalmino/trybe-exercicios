@@ -9,11 +9,11 @@ button.addEventListener('click', getCharater);
 
 function getCharater() {
     const id = Math.floor(Math.random() * 731);
-  fetch(`https://superheroapi.com/api.php/6292894400725945/${id}`)
+  fetch(`https://akabab.github.io/superhero-api/api/id/${id}.json`)
     .then((response) => response.json())
     .then((data) => {
-        image.src = data.image.url
+        image.src = data.images.sm
         title.textContent = data.name
-    });
+    }).catch(error => console.log(error.message))
 }
 
